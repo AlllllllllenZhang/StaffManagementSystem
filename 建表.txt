@@ -1,0 +1,7 @@
+connect 'jdbc:derby:Staff;create=true';
+
+create table admin(account varchar(40) primary key not null,password varchar(40) not null);
+
+create table staff(account varchar(40) primary key not null,number varchar(20) not null,name varchar(20) not null,"
+ID varchar(40) not null,birth varchar(40),title varchar(20),branch varchar(40),password varchar(60));
+
